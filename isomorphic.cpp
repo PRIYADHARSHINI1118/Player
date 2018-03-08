@@ -23,7 +23,6 @@ class isomorphic
             for(i=0;i<n1;i++)
             { 
             f=s3.find(s1[i]);
-            cout<<"\nf="<<f<<endl;
             if(f==-1)
             {
             s3[ch]=s1[i];
