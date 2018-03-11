@@ -7,6 +7,7 @@ string s;
 char y='.';
 void get()
 {
+cout<<"INPUT"<<endl;
 getline(cin,s);
 }
 void Append()
@@ -15,6 +16,7 @@ s=s+y;
 }
 void display()
 {
+cout<<"OUTPUT"<<endl;
 cout<<s;
 }
 public:
