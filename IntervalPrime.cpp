@@ -18,7 +18,7 @@ cin>>i>>r;
 }
 void chck()
 {
-for(j=i;j<=r;j++)
+for(j=i+1;j<r;j++)
 {
 for(k=2;k<j;k++)
 {
@@ -37,7 +37,11 @@ ch=true;
 }
 void display()
 {
-cout<<"OUTPUT"<<endl<<c;
+cout<<"OUTPUT"<<endl;
+for(i=0;i<c;i++)
+{
+cout<<ar[i]<<" ";
+}
 }
 };
 int main()
