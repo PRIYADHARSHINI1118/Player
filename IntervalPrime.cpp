@@ -15,6 +15,12 @@ void get()
 {
 cout<<"INPUT"<<endl;
 cin>>i>>r;
+if(i>r)
+{
+int t=i;
+i=r;
+r=t;
+}
 }
 void chck()
 {
