@@ -12,7 +12,7 @@ getline(cin,s);
 void display()
 {
 cout<<"OUTPUT"<<endl;
-n=s.length();cout<<"n="<<n<<endl;
+n=s.length();
 for(i=n-1;i>=0;i--)
 {
 switch(s[i])
